@@ -8,7 +8,7 @@ spec:
   type: NodePort
   selector:
     app: webserver
-    ver: blue
+    ver: green
   ports:
   - protocol: TCP
     nodePort: 30010
